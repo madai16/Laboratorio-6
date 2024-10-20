@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía de Gustavo Cerati</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cerati</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#biografia">Biografía</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#carrusel">Carrusel de imágenes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5" id="biografia">
+        <h1 class="text-center">Biografía de Gustavo Cerati</h1>
+        <p class="mt-4">
+            Gustavo Adrián Cerati (11 de agosto de 1959 - 4 de septiembre de 2014) fue un influyente músico, compositor y productor argentino. 
+            Como líder de la banda de rock **Soda Stereo**, alcanzó fama internacional durante las décadas de los 80 y 90. 
+            Tras la disolución de la banda, Cerati siguió con una exitosa carrera como solista, experimentando con diversos estilos musicales.
+        </p>
+        <p>
+            A lo largo de su carrera, Gustavo Cerati ganó múltiples premios y se convirtió en una figura fundamental del rock latinoamericano. 
+            Sus álbumes, tanto con Soda Stereo como en su etapa solista, han dejado un legado imborrable en la historia de la música.
+        </p>
+        <p>
+            Cerati falleció el 4 de septiembre de 2014, luego de estar en coma durante cuatro años, dejando atrás una trayectoria icónica que 
+            continúa inspirando a artistas y fanáticos de la música en todo el mundo.
+        </p>
+    </div>
+
+    <!-- Carrusel de imágenes -->
+    <div class="container mt-5" id="carrusel">
+        <h2 class="text-center">Carrusel de Imágenes</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- Primera imagen -->
+                <div class="carousel-item active">
+                    <img src="Fotos/2.jpg" class="d-block w-100" alt="Gustavo Cerati en concierto">
+                </div>
+                <!-- Segunda imagen -->
+                <div class="carousel-item">
+                    <img src="Fotos/1.webp" class="d-block w-100" alt="Gustavo Cerati tocando la guitarra">
+                </div>
+                <!-- Tercera imagen -->
+                <div class="carousel-item">
+                    <img src="Fotos/3.jpg" class="d-block w-100" alt="Gustavo Cerati en estudio">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Botón que activa el modal -->
+    <div class="container mt-5 text-center" id="contacto">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
+            Contacto
+        </button>
+    </div>
+
+    <!-- Modal de contacto -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contacto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Si deseas más información sobre Gustavo Cerati o sus obras, puedes visitar sus redes sociales oficiales o escribir a contacto@cerati.com.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
