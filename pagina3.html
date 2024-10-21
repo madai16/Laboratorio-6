@@ -6,33 +6,13 @@
     <title>Página 3</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #000; /* Fondo negro */
-            color: #fff; /* Texto en blanco */
-        }
-        .navbar {
-            background-color: #111; /* Barra de navegación negra */
-        }
-        .navbar-nav .nav-link {
-            color: #fff;
-        }
-        .navbar-nav .nav-link.active {
-            font-weight: bold;
-            color: #FFD700; /* Color dorado para la página activa */
-        }
-        footer {
-            margin-top: 50px;
-            padding: 20px 0;
-            text-align: center;
-            background-color: #111;
-        }
-    </style>
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="1P.css">
 </head>
 <body>
 
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Página 3</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,8 +28,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="pagina2.html">Página 2</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="pagina3.html">Página 3</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="pagina3.html">Página 3</a>
                 </li>
             </ul>
         </div>
@@ -57,17 +37,17 @@
 
     <!-- Contenido principal -->
     <div class="container mt-5">
-        <h1 class="text-center">Estás en la Página 3</h1>
+        <h1 class="text-center">Biografia</h1>
         <p class="mt-4">
-            Esta es la página número 3. Usa el menú de navegación para ir a las otras páginas o volver al inicio.
+          Leon Larregui
         </p>
         
         <p class="mt-4">
-            Aquí encontrarás un carrusel de imágenes que muestra algunos ejemplos de nuestro contenido.
+            León Larregui es un destacado músico, compositor y productor mexicano, conocido principalmente como el vocalista y líder de la famosa banda de rock alternativo Zoé. Nació el 15 de junio de 1973 en la Ciudad de México. Desde joven mostró interés por la música y comenzó a tocar la guitarra y a componer canciones.
         </p>
         
         <p class="mt-4">
-            Disfruta explorando el contenido y no dudes en regresar a las otras páginas.
+            En 1994, fundó Zoé junto a otros músicos, y la banda se ha convertido en una de las más influyentes de la escena musical latinoamericana. Con su estilo característico que mezcla rock, pop y elementos electrónicos, han lanzado varios álbumes aclamados por la crítica, como "Zoé", "Rocanlover", "Memo Rex Commander y el Corazón Atomico de la Vía Láctea" y "Aztlán". Su música ha resonado en diversas generaciones y ha ganado múltiples premios, incluidos varios Grammy Latinos.
         </p>
 
         <!-- Carrusel de Bootstrap -->
@@ -80,8 +60,7 @@
                     <img src="Fotos/Leon2.jpg" class="d-block w-100" alt="Imagen 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="Fotos/leon3.jpg".jpg
-                    " class="d-block w-100" alt="Imagen 3">
+                    <img src="Fotos/Leon3.jpg" class="d-block w-100" alt="Imagen 3">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
@@ -93,11 +72,11 @@
                 <span class="sr-only">Siguiente</span>
             </a>
         </div>
-
+    </div>
 
     <!-- Footer con navegación inferior -->
-    <footer>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <footer class="mt-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="collapse navbar-collapse justify-content-center" id="footerNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -109,8 +88,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="pagina2.html">Página 2</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="pagina3.html">Página 3</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="pagina3.html">Página 3</a>
                     </li>
                 </ul>
             </div>
@@ -123,7 +102,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-
 
