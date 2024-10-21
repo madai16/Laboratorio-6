@@ -1,0 +1,14 @@
+/* styles.css */
+body {
+    background-color: white; /* Color de fondo blanco */
+    color: #333; /* Color de texto */
+}
+
+h1, h2 {
+    font-weight: bold; /* Títulos en negritas */
+    color: #2c3e50; /* Color de los títulos */
+}
+
+.container {
+    margin-top: 20px; /* Espaciado superior para los contenedores */
+}
